@@ -7,6 +7,8 @@ const jestConfig = createJestConfig({
   moduleNameMapper: {
     "^infra/(.*)$": "<rootDir>/infra/$1",
   },
+  testEnvironment: "node",
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
 });
 
 module.exports = jestConfig;
