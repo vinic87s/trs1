@@ -13,4 +13,3 @@ if (!process.env.NODE_ENV) {
 // process.env.POSTGRES_HOST = process.env.POSTGRES_HOST || "localhost";
 
 console.log("Jest Setup: NODE_ENV =", process.env.NODE_ENV);
-
