@@ -12,4 +12,4 @@ if (!process.env.NODE_ENV) {
 // process.env.DATABASE_URL = process.env.DATABASE_URL || "postgresql://localhost:5432/test";
 // process.env.POSTGRES_HOST = process.env.POSTGRES_HOST || "localhost";
 
-console.log("Jest Setup: NODE_ENV =", process.env.NODE_ENV);
+// console.log("Jest Setup: NODE_ENV =", process.env.NODE_ENV);
